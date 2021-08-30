@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  /* width: 25%; */
+  background-color: rgb(40,44,51);
+  padding: 5px;
+  
+}
+
+.Header {
+  background-color: rgb(225,225,225);
+  border-radius: 5px 5px 0 0;
+  padding: 10px
+}
+
+.AddTask {
+  border-radius: 5px;
+  margin: 5px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.AddTask button {
+  margin-top: 10px;
+}
+
+h4 {
+  margin: 10px auto 5px auto;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 60%
+}
+
+.ToDo {
+  margin: 1%;
+  margin-top: 2%;
+  border-radius: 5px;
+  background-color: white;
+  min-height: 75px;
+}
+
+.ToDo p {
+  padding-left: 10px;
+}
+
+.TaskList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TaskListSub {
+  text-align: left;
+  width: 80%;
+  ;
+}
+
+.Button button {
+  padding: none;
+  border: none;
+  background: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 576px) {
+  .App {
+    width: 75%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (min-device-width: 577px) and (max-device-width: 768px) {
+  .App {
+    width: 60%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+  .App {
+    width: 50%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (min-device-width: 993px) and (max-device-width: 1200px) {
+  .App {
+    width: 40%;
+    margin: 2% auto;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .App {
+    width: 25%;
+    margin: 2% auto;
+  }
+}
+
+
+
+
